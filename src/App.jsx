@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./router/Home";
@@ -9,7 +7,7 @@ import Login from "./router/Login";
 import ProductList from "./router/ProductList";
 import ShoppingCart from "./router/ShoppingCart";
 import Signup from "./router/Signup";
-import Root from "./router/root";
+import Root from "./router/Root";
 import ProductDetail from "./router/ProductDetail";
 import AppProvider from "./contax/AppContext";
 import ShoppingCartProvide from "./contax/ShoppingCartContext";
